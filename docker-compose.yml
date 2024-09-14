@@ -1,0 +1,7 @@
+version: '3'
+services:
+  team4:
+    image: team4
+    container_name: team4_container
+    ports:
+      - "4984:4984"
